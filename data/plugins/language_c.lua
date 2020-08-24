@@ -14,6 +14,7 @@ syntax.add {
     { pattern = "-?%.?%d+f?",           type = "number"   },
     { pattern = "[%+%-=/%*%^%%<>!~|&]", type = "operator" },
     { pattern = "[%a_][%w_]*%f[(]",     type = "function" },
+    { pattern = "[%a_][%w_]*_t",        type = "keyword2"   },
     { pattern = "[%a_][%w_]*",          type = "symbol"   },
   },
   symbols = {
@@ -53,7 +54,6 @@ syntax.add {
     ["bool"]     = "keyword2",
     ["true"]     = "literal",
     ["false"]    = "literal",
-    ["NULL"]     = "literal",
   },
 }
 
