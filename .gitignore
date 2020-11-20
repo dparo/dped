@@ -1,0 +1,8 @@
+dped
+dped.zip
+SDL2.dll
+.lite_workspace.lua
+
+
+# ignore all . folders but include . files
+.*/
